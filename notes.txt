@@ -1,0 +1,26 @@
+Add extension of react from google chrome and add some extension in vs code like thunder client, auto rename e.t.c
+
+npm install -g create-react-app is used to install the all package for create react app globally that means you can use any time without everytime you have to download packages by command.
+
+But npx create-react-app my app is used to download the package only for once that means you get the package and work on it and return the packages where my app is a folder name.
+In terminal,
+Step 1:npx create-react-app my-app
+Step 2: npx create-react-app .
+Then it will say change the different name then we do npx create-react-app textutils
+
+For download node modulus packages ,then we have to write npm install in terminal
+
+For making "build" file, we use npm run build and due to this we create aproduction build. 
+
+When we add the repository in github and github have contgains ROuter e.t.c then they have problems to add , so we will commment out the all Router which is in code so we commenting the About and make "to" to "href" and "link" to "a". 
+
+Go to deployement react app and do ctrl+F then write github pages then you see some code given below , so given  below code is down we have to paste on package.json and install in terminal.
+
+"homepage": "https://simple07-boy.github.io/textutils" add this in starting of package.json for hosting react app.
+
+npm install --save gh-pages paste in terminal download.
+
+"predeploy": "npm run build",
+"deploy": "gh-pages -d build",  add this in scripts in package.json.
+
+and then run "npm run deploy" in terminal and then automatically the repistory is published in git hub and deployed in internet.
